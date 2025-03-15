@@ -10,25 +10,25 @@ This project simulates a novel Real-Time Operating System (RTOS) with the follow
 
 ```
 rtos/
-├── include/              # Header files
-│   ├── system_config.h   # System-wide configurations
-│   ├── task_manager.h    # Task management interfaces
-│   ├── scheduler.h       # Scheduler interfaces
-│   ├── ml_engine.h       # ML inferencing engine
-│   ├── fault_tolerance.h # Fault detection/recovery
-│   └── memory_matrix.h   # Shared memory infrastructure
+├── include/                    # Header files
+│   ├── system_config.h         # System-wide configurations
+│   ├── task_manager.h          # Task management interfaces
+│   ├── scheduler.h             # Scheduler interfaces
+│   ├── ml_engine.h             # ML inferencing engine
+│   ├── fault_tolerance.h       # Fault detection/recovery
+│   └── memory_matrix.h         # Shared memory infrastructure
 ├── src/
-│   ├── core/             # Core RTOS components
-│   │   ├── kernel.c      # Main kernel
-│   │   ├── scheduler.c   # Scheduling algorithms
-│   │   ├── task_manager.c# Task handling
-│   │   └── memory_matrix.c# Shared memory
+│   ├── core/                   # Core RTOS components
+│   │   ├── kernel.c            # Main kernel
+│   │   ├── scheduler.c         # Scheduling algorithms
+│   │   ├── task_manager.c      # Task handling
+│   │   └── memory_matrix.c     # Shared memory
 │   ├── ml/
-│   │   └── ml_engine.c   # ML prediction implementation
+│   │   └── ml_engine.c         # ML prediction implementation
 │   ├── fault/
-│   │   └── fault_tolerance.c # Fault handling
-│   └── main.c            # Main application
-└── CMakeLists.txt        # Build configuration
+│   │   └── fault_tolerance.c   # Fault handling
+│   └── main.c                  # Main application
+└── CMakeLists.txt              # Build configuration
 ```
 
 ## Building the Project
