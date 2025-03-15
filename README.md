@@ -44,10 +44,10 @@ cmake --build .
 
 ## Running the Simulation
 
-Once built, run the binary from the `build/bin` directory:
+Once built, run the binary from the `build/bin/Debug` directory:
 
 ```bash
-cd bin
+cd bin/Debug
 ./ml_rtos
 ```
 
