@@ -1,0 +1,10 @@
+^C:\USERS\PRATH\ONEDRIVE\DOCUMENTS\COLLEGE\YEAR_2\SEM_4\OS\RTOS\BUILD\CMAKEFILES\DF83F244C7B2DA937A5E2C2010D3800A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/prath/OneDrive/Documents/College/Year_2/SEM_4/OS/rtos -BC:/Users/prath/OneDrive/Documents/College/Year_2/SEM_4/OS/rtos/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/prath/OneDrive/Documents/College/Year_2/SEM_4/OS/rtos/build/ML_RTOS.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
